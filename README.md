@@ -1,8 +1,8 @@
 	// Blob to binary stream
-	var blobStream = Ti.Stream.createStream({ source: myBlob, mode: Ti.Stream.MODE_READ });
-	var newBuffer = Ti.createBuffer({ length: myBlob.length });
+	var blobStream = Ti.Stream.createStream({ source: _data.media, mode: Ti.Stream.MODE_READ });
+	var newBuffer = Ti.createBuffer({ length: _data.media.length });
 	var bytes = blobStream.read(newBuffer);
-	
+
 	//var imageToString = _data.media.toString("binary");
 	var exifRW = require('piexifjs');
 
@@ -15,5 +15,5 @@
 	var exifbytes = exifRW.dump(exifObj);
 
 	var newImageString = exifRW.insert(exifbytes, bytes);
-
+	
 	var newBlob = newImageString.toBlob();
