@@ -1,0 +1,10 @@
+version: 1.0.0
+description: Read and write exif.
+author: hMatoba
+license: MIT
+copyright: Copyright © 2015 hMatoba
+name: piexifjs
+moduleid: piexifjs
+guid: 26f47a06-b74e-94e4-b8e9-4d20fad7850f
+platform: commonjs
+minsdk: 3.2.0.GA

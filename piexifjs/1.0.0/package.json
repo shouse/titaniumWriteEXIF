@@ -1,0 +1,47 @@
+{
+  "name": "piexifjs",
+  "version": "1.0.0",
+  "description": "Read and write exif.",
+  "main": "piexifjs.js",
+  "guid": "26f47a06-b74e-94e4-b8e9-4d20fad7850f",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hMatoba/piexifjs.git"
+  },
+  "keywords": [
+    "jpeg",
+    "exif"
+  ],
+  "author": {
+    "name": "hMatoba"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hMatoba/piexifjs/issues"
+  },
+  "homepage": "https://github.com/hMatoba/piexifjs",
+  "gitHead": "a6732e984450b116ec8aabadd8a974fd61dfe939",
+  "_id": "piexifjs@1.0.0",
+  "scripts": {},
+  "_shasum": "bd25a23f2cda323e870126f250ded56f3fd23431",
+  "_from": "piexifjs@*",
+  "_npmVersion": "2.7.4",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "hmatoba",
+    "email": "hiroaki.mtb@outlook.com"
+  },
+  "dist": {
+    "shasum": "bd25a23f2cda323e870126f250ded56f3fd23431",
+    "tarball": "http://registry.npmjs.org/piexifjs/-/piexifjs-1.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "hmatoba",
+      "email": "hiroaki.mtb@outlook.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/piexifjs/-/piexifjs-1.0.0.tgz",
+  "_nativeDependencies": {}
+}
